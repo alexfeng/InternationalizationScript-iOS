@@ -13,7 +13,7 @@
 ## importDemo Excel中数据导入为Localizable.strings 本地化文件
 
 - 将数据excel与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
-- 终端执行命令 `python importLocalizable.py xxx.xls`
+- 终端执行命令 `python importLocalizable.py localizableFromExcel.xls`
 
 ## exportDemo 本地化文件导出到Excel中
 - 将需要导出的多个Localizable.strings本地化语言文件 重命名，修改执行脚本中的 `paths=["Localizable_en.strings","Localizable_zh-Hans.strings"]`
