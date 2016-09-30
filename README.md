@@ -7,7 +7,7 @@
 2. Python 2.7
 3. 安装xlrd1.0 （excel导出到本地化Demo中附带）官方网址：http://pypi.python.org/pypi/xlrd
 4. xlrd安装方法 进入xlrd源代码目录 执行 `sudo python setup.py install`
-5. 安装xlwt1.1.2 （本地化文件导入到excelDeme中附带）官方网址：https://pypi.python.org/pypi/xlwt
+5. 安装xlwt1.1.2 （本地化文件导入到excelDemo中附带）官方网址：https://pypi.python.org/pypi/xlwt
 6. xlwt安装方法 进入xlwt源代码目录 执行 `sudo python setup.py install`
 
 ## importDemo Excel中数据导入为Localizable.strings 本地化文件
