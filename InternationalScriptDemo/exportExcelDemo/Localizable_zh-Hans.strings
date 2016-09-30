@@ -1,0 +1,4 @@
+"PROMPT_INPUT_NUMBER" = "请输入您的手机号码:";
+"PROMPT_SERVER" = "服务器地址:";
+"PROMPT_INPUT_VERIFY" = "请填写您收到的验证码";
+"PROMPT_CHECK_VERIFY" = "请稍候，验证码将会发送到您的手机。";
