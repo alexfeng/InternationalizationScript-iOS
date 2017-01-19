@@ -17,7 +17,16 @@
 
 ## exportDemo 本地化文件导出到Excel中
 - 将需要导出的多个Localizable.strings本地化语言文件 重命名，修改执行脚本中的 `paths=["Localizable_en.strings","Localizable_zh-Hans.strings"]`
-- 将`Localizable_zh-Hans.strings` `Localizabel_en.strings` 等文件与执行脚本（exportToExcelv2.0.py）放置一个目录下 Demo目录可以直接使用
-- 终端执行命令 python exportToExcelv2.0.py
+- 将`Localizable_zh-Hans.strings` `Localizabel_en.strings` 等文件与执行脚本（`exportToExcelv2.0.py`）放置一个目录下 Demo目录可以直接使用
+- 终端执行命令 `python exportToExcelv2.0.py`
 
+## exportDemoV2.0 iOS本地化文件导出到Excel中
+- 将需要导出的多国语言文件夹放置在`iOSLocal` 文件夹中
+- 将`iOSLocal`与执行脚本(`exportToExcelv2.1.py`)放置在一个目录下 exportExcelDemoV2.0目录可以直接使用
+- 终端执行命令`python exportToExcelv2.1.py` 
+- 导出的excel文件是`localizabelToExcel.xls`
+- [ ]V2.0版不需要重命名本地化文件名，更简单方便
+  
 ## have fun
+
+

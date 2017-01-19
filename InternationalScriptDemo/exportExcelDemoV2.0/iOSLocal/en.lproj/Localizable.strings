@@ -1,0 +1,4 @@
+"PROMPT_INPUT_NUMBER" = "Enter Your Phone Number:";
+"PROMPT_SERVER" = "Server IP:";
+"PROMPT_INPUT_VERIFY" = "Please Enter verification code";
+"PROMPT_CHECK_VERIFY" = "Please note that receiving verification code might take a few seconds.";
