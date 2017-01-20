@@ -15,6 +15,11 @@
 - 将数据excel与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
 - 终端执行命令 `python importLocalizable.py localizableFromExcel.xls`
 
+## importDemoLocalizableDemoV2.0 可将Excel中数据导入为iOS 需要的本地化xx.proj/Localizable.strings 本地化文件
+- 将数据excel与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
+- 终端执行命令 `python importLocalizable.py localizableFromExcel.xls`
+- 完成会再脚本目录下生成`iOSLocal`文件夹，下面都是可以直接在iOS项目中使用的本地化文件
+
 ## exportDemo 本地化文件导出到Excel中
 - 将需要导出的多个Localizable.strings本地化语言文件 重命名，修改执行脚本中的 `paths=["Localizable_en.strings","Localizable_zh-Hans.strings"]`
 - 将`Localizable_zh-Hans.strings` `Localizabel_en.strings` 等文件与执行脚本（`exportToExcelv2.0.py`）放置一个目录下 Demo目录可以直接使用
