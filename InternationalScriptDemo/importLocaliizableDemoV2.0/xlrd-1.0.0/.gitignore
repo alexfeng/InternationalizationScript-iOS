@@ -1,0 +1,15 @@
+/build
+/dist
+*.egg-info
+build/
+*.pyc
+/.coverage
+/.tox
+/*.xml
+/htmlcov
+MANIFEST
+/bin
+.Python
+/include
+/lib
+
