@@ -10,22 +10,22 @@
 5. 安装xlwt1.1.2 （本地化文件导入到excelDemo中附带）官方网址：https://pypi.python.org/pypi/xlwt
 6. xlwt安装方法 进入xlwt源代码目录 执行 `sudo python setup.py install`
 
-## importDemo Excel中数据导入为Localizable.strings 本地化文件
+## importLocalizableDemo 将Excel中数据导出为Localizable.strings 本地化文件
 
-- 将数据excel与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
+- 将excel中的数据与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
 - 终端执行命令 `python importLocalizable.py localizableFromExcel.xls`
 
-## importDemoLocalizableDemoV2.0 可将Excel中数据导入为iOS 需要的本地化xx.proj/Localizable.strings 本地化文件
+## importLocalizableDemoV2.0 将Excel中数据导出为iOS 需要的xx.proj/Localizable.strings 本地化文件
 - 将数据excel与执行脚本(importLocalizable.py)放置在一个目录下 Demo目录可以直接使用
 - 终端执行命令 `python importLocalizable.py localizableFromExcel.xls`
-- 完成会再脚本目录下生成`iOSLocal`文件夹，下面都是可以直接在iOS项目中使用的本地化文件
+- 完成会在脚本目录下生成`iOSLocal`文件夹，下面都是可以直接在iOS项目中使用的本地化文件
 
-## exportDemo 本地化文件导出到Excel中
+## exportExcelDemo 本地化文件导出到Excel中
 - 将需要导出的多个Localizable.strings本地化语言文件 重命名，修改执行脚本中的 `paths=["Localizable_en.strings","Localizable_zh-Hans.strings"]`
 - 将`Localizable_zh-Hans.strings` `Localizabel_en.strings` 等文件与执行脚本（`exportToExcelv2.0.py`）放置一个目录下 Demo目录可以直接使用
 - 终端执行命令 `python exportToExcelv2.0.py`
 
-## exportDemoV2.0 iOS本地化文件导出到Excel中
+## exportExcelDemoV2.0 iOS本地化文件导出到Excel中
 - 将需要导出的多国语言文件夹放置在`iOSLocal` 文件夹中
 - 将`iOSLocal`与执行脚本(`exportToExcelv2.1.py`)放置在一个目录下 exportExcelDemoV2.0目录可以直接使用
 - 终端执行命令`python exportToExcelv2.1.py` 
@@ -35,6 +35,9 @@
 ## have fun
 
 ## 历史
-13年在正文集团下属公司普罗通信工作时，碰到多次与产品等进行多语言文档说明修改的事，每次都是手动处理，偶尔有一天公司对多语言进行了大量修改，手动处理是一个苦活，思考了下写个脚本，然后就写了个简单的导出脚本，写了个简单的导入脚本，都是需要手动进行的。
-15年底换到全通集团下属习悦信息技术有限公司上班，工作闲暇时间看到一个ZYProSoft群里看到有人在进行多语言处理的工作，吐槽这个手动工作量太大。就将以前写的脚本找出来，简单的修改了下，公布出来。
+2013年在正文集团的下属公司（普罗通信）工作时，碰到多次与产品等进行多语言文档进行修改的工作事项，经过多次的手动处理后，突然某天公司对多语言进行了大量修改，手动处理是一个苦活，静静的思考了下写了个简单的导出脚本，简单的导入脚本，都是需要介入手动操作，已经对原来的苦活减少了很多重复繁重的工作。
+2015年底换到全通集团下属习悦信息技术有限公司上班，工作闲暇时间看到一个ZYProSoft群里看到有人在进行多语言处理的工作，吐槽这个手动工作量太大。就将以前写的脚本找出来，简单的修改了下，公布出来。
 2017年1月19修改了下脚本，完成最初的构想的脚本，今天是腊月二十三（小年）算是一个完成。
+2017年8月3日修改了下说明文档中的错误之处。
+
+
