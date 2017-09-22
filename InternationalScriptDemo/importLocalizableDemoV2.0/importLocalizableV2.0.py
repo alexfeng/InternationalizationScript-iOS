@@ -39,19 +39,23 @@ def writeKeysValuesInToLocalizableFile(keys,values,targetFolder):
 ##########################################################
 def importLocalizable(options):
     data = openExcel(options.filePath)
-    table = data.sheets()[0]
-    colnames = table.row_values(0) #第一行数据
-    colKeys = table.col_values(0) #第一列key数据
-    # print (colKeys)
-    del colKeys[0]
+    
+    if data :
+        table = data.sheets()[0]
+        colnames = table.row_values(0) #第一行数据
+        colKeys = table.col_values(0) #第一列key数据
+        print (colKeys)
+        del colKeys[0]
 
-    for indexCol in range(len(colnames)):
-        if indexCol > 0:
-            languageName = colnames[indexCol]
-            values = table.col_values(indexCol)
-            # print(values)
-            del values[0]
-            writeKeysValuesInToLocalizableFile(colKeys,values,os.getcwd()+"/iOSLocal/"+languageName+".proj/")
+        for indexCol in range(len(colnames)):
+            if indexCol > 0:
+                languageName = colnames[indexCol]
+                values = table.col_values(indexCol)
+                # print(values)
+                del values[0]
+                writeKeysValuesInToLocalizableFile(colKeys,values,os.getcwd()+"/iOSLocal/"+languageName+".proj/")
+    else :
+        print "can not open file"
 
 
 
